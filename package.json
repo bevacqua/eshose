@@ -1,0 +1,24 @@
+{
+  "name": "twitter-firehose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "bin": {
+    "eshose": "./bin/eshose"
+  },
+  "author": "Nicolás Bevacqua <nicolasbevacqua@gmail.com> (https://ponyfoo.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@elastic/elasticsearch": "7.0.0",
+    "chalk": "2.4.2",
+    "nconf": "0.10.0",
+    "twitter": "1.7.1",
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.0"
+  }
+}
